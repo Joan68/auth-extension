@@ -1,0 +1,15 @@
+version: "3"
+services:
+ db:
+   image: postgres
+   restart: always
+   ports:
+     - "5438:5432"
+   environment:
+     POSTGRES_PASSWORD: pass123
+     
+
+#   Start docker-compose
+#  NOTE: docker-compose down (to take it down)
+
+# docker-compose up -d
