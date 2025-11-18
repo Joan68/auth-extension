@@ -1,0 +1,5 @@
+databases:
+  postgres:
+    url: postgres://postgres:pass123@db:5432/postgres
+  admin_db:
+    url: postgres://postgres:pass123@db:5432/admin_db
